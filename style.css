@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Titan+One&display=swap');
+body{
+    /* background-image: url('lucas-kapla-GAM-7l4QzmI-unsplash (1).jpg'); */
+    background-color: orangered;
+}
+
+.container{
+    /* background-image: url('jeremy-bezanger-nipbRVoEp18-unsplash.jpg'); */
+    height: 800px;
+    background-color: rgb(245, 214, 197);
+    width: 86%;
+    margin: auto;
+    margin-top: 5%;
+    /* border: 10px soid black; */
+    /* border-radius: 20px;  */
+    box-shadow: 7px 7px 5px 5px rgb(194, 62, 14);
+}
+
+.hii{
+    font-size: 3rem;
+    display: inline-block;
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(255, 68, 0);
+    margin-top: 7%;
+    margin-left: 5%;
+    /* border: 1px solid orangered; */
+    
+}
+
+.name{
+    font-size: 5rem;
+    font-family: 'Titan One', cursive;
+    /* border: 1px solid orangered; */
+    /* display: inline-block; */
+    width: 24rem;
+    margin-left: 5%;
+    font-weight: bold;
+    z-index: 3;
+    color: rgb(245, 214, 197);
+    position: relative;
+    bottom: 19rem;
+    text-shadow: 7px 7px rgb(194, 170, 156);
+    font-weight: lighter;
+    /* text-shadow: 4px 4px 3px 3px rgb(196, 171, 158); */
+}
+.name1{
+    font-size: 5rem;
+    font-family: 'Titan One', cursive;
+    /* border: 1px solid orangered; */
+    /* display: inline-block; */
+    width: 30rem;
+    margin-left: 5%;
+    /* margin-top: 30%; */
+    z-index: 3;
+    color: rgb(245, 214, 197);
+    position: relative;
+    font-weight: lighter;
+    bottom: 20rem;
+    text-shadow: 7px 7px rgb(196, 171, 158);
+}
+
+.bgimg{
+    /* position:relative; */
+    z-index: 2;
+    /* display: inline-block; */
+    position: relative;
+    top: -70px;
+    left: -60px;
+    /* bottom: 25rem; */
+    /* transform:rotate(5deg); */
+    transform: scale(0.8);
+}
+
+.navbar{
+    position: absolute;
+    top: 12%;
+    left: 38%;
+    background-color:  rgb(245, 214, 197);
+    width: 340px;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 0px;
+    z-index: 4;
+}
+
+.item{
+    margin: 10px;
+    padding: 7px 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.item:hover{
+    color: rgb(245, 214, 197);
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+
+.discription{
+    display: inline-block;
+    width: 400px;
+    position: relative;
+    bottom: 270px;
+    left: 70px;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: lighter;
+}
+
+.dp{
+    position: absolute;
+    top: 200px;
+    left: 850px;
+    height: 400px;
+}
+
+.arrow{
+    position: relative;
+    /* bottom: 35px; */
+    /* right: 15%; */
+    /* transform: scale(0.2); */
+    width: 50px;
+    /* border: 1px solid black; */
+}
+
+.whoami{
+    margin: 20px;
+    font-size: 2.4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    bottom: 10px;
+    font-weight: bold;
+    
+}
+
+.anime{
+    width: 200px;
+    /* border: 1px solid grey; */
+    background-color: rgb(255, 183, 0);
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 6%;
+    position: relative;
+    bottom: 30px;
+    animation: vaibhav 1s ease-out ;
+}
+@keyframes vaibhav{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 200px;
+    }
+}
+
+.animebg{
+    width: 300px;
+    /* border: 1px solid grey; */
+    background-color: rgb(157, 157, 157);
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 6%;
+    
+}
+
+.bar{
+    position: relative;
+    bottom: 15rem;
+    right: 10rem;
+    transform: scale(0.6);
+}
+
+.container2{
+    background-color: rgb(255, 200, 0);
+    width: 86%;
+    margin: auto;
+    height: 400px;
+    /* border-radius: 20px; */
+    margin-top: 30px;
+    box-shadow: 7px 7px 5px 5px rgb(194, 62, 14);
+}
+
+.rating{
+    background-color: rgb(245, 214, 197);
+    display:inline-block;
+    width: 180px;
+    height: 100px;
+    position: relative;
+    border-radius: 10px;
+    bottom: 100px;
+    left: 240px;
+    transform: scale(3);
+}
+
+
+
+
+.cc{
+    /* border: 1px solid black; */
+    position: relative;
+    z-index: 6;
+    width: 500px;
+    left: 70px;
+    top: 60px;
+    height:80px;
+}
+
+.headicc{
+    /* border: 1px solid black; */
+    display: inline-block;
+    width: auto;
+    padding: 10px 0px;
+    margin: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.8rem;
+    font-weight: bold ;
+    position: relative;
+    /* top: 40px; */
+    left: 15px;
+    text-align: right;
+    z-index: 1;
+}
+
+.linecc{
+    width: 200px;
+    /* border: 1px solid grey; */
+    background-color: rgb(255, 183, 0);
+    height: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+    left: 22px;
+    animation: vaibhavcc 1s ease-out ;   
+}
+
+@keyframes vaibhavcc{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 200px;
+    }
+}
+
+.line2cc{
+    width: 300px;
+    border: 1px solid grey;
+    background-color: rgb(157, 157, 157);
+    height: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+    bottom: 55px;
+    left: 190px;
+    z-index: -1;
+}
+.cf{
+    /* border: 1px solid black; */
+    position: relative;
+    z-index: 6;
+    width: 500px;
+    left: 70px;
+    top: 60px;
+    height:80px;
+}
+
+.headicf{
+    /* border: 1px solid black; */
+    display: inline-block;
+    width: auto;
+    padding: 10px 0px;
+    margin: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.8rem;
+    font-weight: bold ;
+    position: relative;
+    /* top: 40px; */
+    left: -10px;
+    text-align: right;
+    z-index: 1;
+}
+
+.linecf{
+    width: 100px;
+    /* border: 1px solid grey; */
+    background-color: rgb(255, 183, 0);
+    height: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+    left: -5px;
+    animation: vaibhavcf 1s ease-out ;   
+}
+@keyframes vaibhavcf{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 100px;
+    }
+}
+
+.line2cf{
+    width: 300px;
+    border: 1px solid grey;
+    background-color: rgb(157, 157, 157);
+    height: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+    bottom: 55px;
+    left: 190px;
+    z-index: -1;
+}
+.lc{
+    /* border: 1px solid black; */
+    position: relative;
+    z-index: 6;
+    width: 500px;
+    left: 70px;
+    top: 60px;
+    height:80px;
+}
+
+.headilc{
+    /* border: 1px solid black; */
+    display: inline-block;
+    width: auto;
+    padding: 10px 0px;
+    margin: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.8rem;
+    font-weight: bold ;
+    position: relative;
+    /* top: 40px; */
+    left: 22px;
+    text-align: right;
+    z-index: 1;
+}
+
+.linelc{
+    width: 50px;
+    /* border: 1px solid grey; */
+    background-color: rgb(255, 183, 0);
+    height: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+    left: 26px;
+    animation: vaibhavlc 1s ease-out ;   
+}
+@keyframes vaibhavlc{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 50px;
+    }
+}
+
+
+.line2lc{
+    width: 300px;
+    border: 1px solid grey;
+    background-color: rgb(157, 157, 157);
+    height: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+    bottom: 55px;
+    left: 190px;
+    z-index: -1;
+}
+
+.container3{
+    height: 400px;
+    width: 86%;
+    background-color: rgb(245, 214, 197);
+    margin-left: 7% ;
+    
+    /* border-radius: 20px; */
+    box-shadow: 7px 7px 5px 5px rgb(194, 62, 14);
+    
+}
+
+
+.project_name{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    margin: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+}
+
+
+.item1_img{
+    height: 100%;
+}
+
+.jointitem{
+    height: 240px;
+    width: 260px;
+    /* border: 3px solid orangered; */
+    border-radius: 20px; 
+    overflow: hidden;
+    box-shadow: 4px 4px 3px 3px rgb(196, 171, 158);
+    transition: all 0.2s;
+    filter: blur(1px);
+}
+
+.jointitem:hover{
+    transform: scale(1.2);
+    box-shadow: none;
+    
+    filter: blur(0px);
+}
